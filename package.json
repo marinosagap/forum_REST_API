@@ -1,0 +1,26 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "restfull api blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Marinos",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.10",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.2",
+    "path": "^0.12.7",
+    "request-stats": "^3.0.0"
+  }
+}
